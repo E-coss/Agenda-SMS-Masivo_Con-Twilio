@@ -50,7 +50,7 @@ class Kernel extends ConsoleKernel
             $tomorrow = Carbon::tomorrow();
 
             $eventos = Evento::whereDate('start', $tomorrow)->where('estado','En proceso')->get();
-$num=1;
+            $num=1;
             foreach($eventos as $evento){
                 echo($num++."Fecha evento: ".$evento->start." "." Nombre: " .$evento->name);
             }
