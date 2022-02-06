@@ -24,7 +24,7 @@
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-    <img style="height:40px; width:175px;" src="{{ asset('img/logo AEC.png') }}" alt="usuario"/>
+    <img style="height:40px; width:175px;" src="{{ asset('img/Logo AEC.png') }}" alt="usuario"/>
     </a>
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
       <a href="https://aecreativo.net/" target="_blank" class="mr-5 text-amber-500 hover:text-amber-400">Visítanos</a>
