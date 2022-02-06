@@ -4,7 +4,7 @@
 	<!--begin::Head-->
 	<head><base href="../../">
 		<meta charset="utf-8" />
-		<title>I'am Creativo</title> 
+		<title>AE Creativo</title> 
 		<link rel="canonical" href="Https://preview.keenthemes.com/start" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" />
@@ -76,7 +76,7 @@
 										<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
 											<!--begin::Menu-->
 											<div class="cursor-pointer symbol symbol-35px" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end" data-kt-menu-flip="bottom">
-												<label>Hola! {{Auth::user()->name}}</label> <img src="https://bombyxplm.com/wp-content/uploads/2021/01/421-4213053_default-avatar-icon-hd-png-download.png" alt="metronic"/>&nbsp;&nbsp;&nbsp;
+												<label>Hola! {{Auth::user()->name}}</label> <img style="height:25px; width:25px;" src="{{ asset('img/user.png') }}" alt="usuario"/>&nbsp;&nbsp;&nbsp;
 												{{-- <a href="#" class="btn btn-sm btn-primary" id="kt_toolbar_primary_button">Salir</a> --}}
 												<a class="btn btn-sm btn-primary" href="{{ route('logout') }}"
 													onclick="event.preventDefault();
@@ -181,7 +181,7 @@
 							<!--begin::Copyright-->
 							<div class="text-dark order-2 order-md-1">
 								<span class="text-muted fw-bold me-1">2021</span>
-								<a href="/" target="_self" class="text-gray-800 text-hover-primary">IamCreativo</a>
+								<a href="https://aecreativo.net" target="_blank" class="text-gray-800 text-hover-primary">AE Creativo todos los derechos reservados.</a>
 							</div>
 							<!--end::Copyright-->
 						</div>
